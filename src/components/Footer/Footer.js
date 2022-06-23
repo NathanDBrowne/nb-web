@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          I mean you could email me...
+          I guess you <em>could</em> email me...
         </p>
         <p className="footer-subscription-text">
           Bit old-fashioned but perhaps you're a purist ;)
@@ -34,22 +34,32 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>About Me</h2>
+            <h2 style={{ color: "#38de21" }}>About Me</h2>
             <Link to="/projects">Projects</Link>
             <Link to="/my-stack">My Stack</Link>
-            <Link to="/misc">Misc</Link>
+            <a
+              href="https://github.com/NathanDBrowne"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              GitHub
+            </a>
           </div>
           <div class="footer-link-items">
-            <h2>Reach out</h2>
+            <h2 style={{ color: "#ff0055" }}>Reach out</h2>
             <Link to="/">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="https://www.linkedin.com/in/nathan-b-42549413a/">
+            <h2 style={{ color: "#5555ff" }}>Social Media</h2>
+            <a
+              href="https://www.linkedin.com/in/nathan-b-42549413a/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               LinkedIn
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -65,45 +75,29 @@ function Footer() {
           </small>
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
-              to="https://www.linkedin.com/in/nathan-b-42549413a/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
+              class="social-icon-link telegram"
               to="/"
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i class="fab fa-telegram" />
             </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
+            <a
+              className="social-icon-link github"
+              href="https://github.com/NathanDBrowne"
               target="_blank"
-              aria-label="Youtube"
+              rel="noreferrer noopener"
             >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
+              <i class="fab fa-github" />
+            </a>
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/nathan-b-42549413a/"
               target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
+              rel="noreferrer noopener"
             >
               <i class="fab fa-linkedin" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

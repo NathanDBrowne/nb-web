@@ -17,6 +17,7 @@ function HeroSection() {
       </p>
       <div className="hero-btns">
         <Button
+          destination="/about-me"
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
@@ -24,6 +25,7 @@ function HeroSection() {
           ABOUT ME
         </Button>
         <Button
+          destination="/projects"
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
