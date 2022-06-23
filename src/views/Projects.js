@@ -40,7 +40,7 @@ function Projects() {
               src="images/quant.png"
               text="Big Money Code"
               label="Quantitative analysis"
-              path="/events"
+              path="/projects/big-money-code"
             />
           </ul>
         </div>

@@ -9,7 +9,7 @@ function HeroSection() {
       <video src="/videos/video-2.mp4" autoPlay loop muted />
       <h1>Hello.</h1>
       <p style={{ marginTop: "30px" }}>
-        I'm Nate and I'm a developer based in the United Kingdom.
+        I'm Nate and I'm a 22 year old developer based in the United Kingdom.
       </p>
       <p style={{ marginTop: "30px" }}>
         MY PHILOSOPHY: if it's difficult or fun give it a go - they're usually

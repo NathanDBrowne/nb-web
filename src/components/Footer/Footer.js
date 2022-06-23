@@ -19,13 +19,13 @@ function Footer() {
               className="footer-input"
               name="email"
               type="email"
-              placeholder="Your Email"
+              placeholder="Not Yet Functioning"
             />
             <input
               className="footer-input"
               name="message"
               type="message"
-              placeholder="Your message here"
+              placeholder="Not Yet Functioning"
             />
             <Button buttonStyle="btn--outline">Send</Button>
           </form>
@@ -60,6 +60,13 @@ function Footer() {
             >
               LinkedIn
             </a>
+            <a
+              href="https://t.me/FreeweightNate"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Telegram
+            </a>
           </div>
         </div>
       </div>
@@ -74,14 +81,6 @@ function Footer() {
             This site was built with React.js
           </small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link telegram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i class="fab fa-telegram" />
-            </Link>
             <a
               className="social-icon-link github"
               href="https://github.com/NathanDBrowne"
@@ -97,6 +96,14 @@ function Footer() {
               rel="noreferrer noopener"
             >
               <i class="fab fa-linkedin" />
+            </a>
+            <a
+              className="social-icon-link telegram"
+              href="https://t.me/FreeweightNate"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <i class="fab fa-telegram" />
             </a>
           </div>
         </div>
