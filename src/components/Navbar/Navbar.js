@@ -29,7 +29,7 @@ function Navbar({ loggedIn }) {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            {<p style={{ color: "#38de21" }}>me@NATE_BROWNE</p>}
+            {<p style={{ color: "#38de21" }}>me@NATE_BROWNE_</p>}
             {<p style={{ color: "#ff0055" }}>(prod)</p>}
             {<p style={{ color: "#5555ff" }}>~/website</p>}$
           </Link>
