@@ -3,26 +3,31 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
-import Home from "./components/pages/Home";
-import Projects from "./components/pages/Projects";
-import MyStack from "./components/pages/MyStack";
+import ThemeContextWrapper from "./components/ThemeWrapper/ThemeWrapper";
+import BackgroundColorWrapper from "./components/BackgroundColorWrapper/BackgroundColorWrapper";
 
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Home from "./views/Home";
+import Projects from "./views/Projects";
+import MyStack from "./views/MyStack";
+
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar loggedIn={true} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/my-stack" element={<MyStack />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </>
+    <ThemeContextWrapper>
+      <BackgroundColorWrapper>
+        <Router>
+          <Navbar loggedIn={true} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/my-stack" element={<MyStack />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </BackgroundColorWrapper>
+    </ThemeContextWrapper>
   );
 }
 
