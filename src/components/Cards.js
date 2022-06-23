@@ -5,40 +5,40 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Top upcoming events:</h1>
+      <h1>Some of my projects:</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
-              text="Melvin gets baptised in a freaking waterfall!"
-              label="Irresponsible"
-              path="/events"
+              src="images/zenobot_zoomed.png"
+              text="Zeno Crypto Bot"
+              label="Python Pandas Telegram OOP"
+              path="/projects/linq"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="Tax Evasion seminar"
-              label="Bring you own coke"
-              path="/events"
+              src="images/linq-erd-zoomed.png"
+              text="LINQ Events"
+              label="Flask SQL MongoDB React.js"
+              path="/projects/linq"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
-              text="Cannibal hunting in Bermuda"
-              label="Drum and Bass"
-              path="/events"
+              src="images/rust-snippet.png"
+              text="Learning RustLang"
+              label="Rust Cargo"
+              path="/projects/rust"
             />
             <CardItem
-              src="images/img-4.jpg"
-              text="England u11 squad vs England Womens National Team"
-              label="Comedy"
-              path="/events"
+              src="images/this-site.png"
+              text="This website"
+              label="React"
+              path="/projects/personal-site"
             />
             <CardItem
-              src="images/img-8.jpg"
-              text="Getting wasted in the desert"
-              label="Yin Yang"
+              src="images/quant.png"
+              text="Big Money Code"
+              label="Quantitative analysis"
               path="/events"
             />
           </ul>

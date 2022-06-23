@@ -6,8 +6,12 @@ import HeroSection from "../HeroSection";
 function Projects() {
   return (
     <div>
-      <HeroSection />
-      {/* <Cards /> */}
+      {/* <HeroSection /> */}
+      <Cards />
+      {/* <Routes>
+        <Route path="/linq" element={<Linq />} />
+        <Route path="/zenobot" element={<MyStack />} />
+      </Routes> */}
     </div>
   );
 }

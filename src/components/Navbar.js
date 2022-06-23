@@ -39,7 +39,7 @@ function Navbar({ loggedIn }) {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                {<p style={{ color: "#38de21" }}>Home</p>}
               </Link>
             </li>
             <li className="nav-item">
@@ -48,7 +48,7 @@ function Navbar({ loggedIn }) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Projects
+                {<p style={{ color: "#ff0055" }}>Projects</p>}
               </Link>
             </li>
             <li className="nav-item">
@@ -57,7 +57,7 @@ function Navbar({ loggedIn }) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                My Stack
+                {<p style={{ color: "#5555ff" }}>My Stack</p>}
               </Link>
             </li>
           </ul>
