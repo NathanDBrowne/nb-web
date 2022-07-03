@@ -33,6 +33,10 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
 
+  const toggleContact = () => {
+    scroll.scrollToBottom();
+  };
+
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -84,9 +88,9 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
+            <NavBtn onClick={toggleContact}>
               <NavBtnLink
-                to="contact"
+                to="/"
                 smooth={true}
                 duration={500}
                 spy={true}

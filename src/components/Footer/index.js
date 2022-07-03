@@ -10,6 +10,7 @@ import {
   FooterLinkTitle,
   FooterLinkItems,
   FooterLink,
+  FooterScrollLink,
   SocialIconLink,
   SocialMedia,
   SocialLogo,
@@ -29,9 +30,18 @@ function Footer() {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>
+                {<p style={{ color: "#ff0055" }}>Reach Out</p>}
+              </FooterLinkTitle>
+              <FooterScrollLink to="/">+44(0)7312 267 345</FooterScrollLink>
+              <FooterScrollLink to="/">
+                nathandbrowne@gmail.com
+              </FooterScrollLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>
                 {<p style={{ color: "#38de21" }}>About Me</p>}
               </FooterLinkTitle>
-              <FooterLink
+              <FooterScrollLink
                 to="projects"
                 smooth={true}
                 duration={500}
@@ -40,15 +50,24 @@ function Footer() {
                 offset={-80}
               >
                 Projects
+              </FooterScrollLink>
+              <FooterScrollLink
+                to="stack"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                My Stack
+              </FooterScrollLink>
+              <FooterLink
+                href="https://github.com/NathanDBrowne"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
               </FooterLink>
-              <FooterLink to="contact">My Stack</FooterLink>
-              <FooterLink to="about">GitHub</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>
-                {<p style={{ color: "#ff0055" }}>Reach Out</p>}
-              </FooterLinkTitle>
-              <FooterLink to="contact">Contact</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -56,8 +75,20 @@ function Footer() {
               <FooterLinkTitle>
                 {<p style={{ color: "#5555ff" }}>Social Media</p>}
               </FooterLinkTitle>
-              <FooterLink to="projects">LinkedIn</FooterLink>
-              <FooterLink to="contact">Telegram</FooterLink>
+              <FooterLink
+                href="https://www.linkedin.com/in/nathan-b-42549413a/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </FooterLink>
+              <FooterLink
+                href="https://t.me/FreeweightNate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Telegram
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -67,7 +98,7 @@ function Footer() {
           <SocialLogo to="/" onClick={toggleHome}>
             Nate Browne
           </SocialLogo>
-          <WebsiteRights>This site is being built with React.js</WebsiteRights>
+          <WebsiteRights>Site built with React.js</WebsiteRights>
           <SocialIcons>
             <SocialIconLink
               href="https://github.com/NathanDBrowne"

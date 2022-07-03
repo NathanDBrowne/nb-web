@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const StackContainer = styled.div`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #010606;
 
-  @media screen and (max-width: 768px) {
-    height: 1100px;
-  }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1000px) {
     height: 1300px;
+  }
+  @media screen and (max-width: 760px) {
+    height: 1800px;
   }
 `;
 
@@ -28,7 +28,7 @@ export const StackWrapper = styled.div`
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 760px) {
     grid-template-columns: 1fr;
     padding 0 20px;
 
@@ -50,6 +50,7 @@ export const StackCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    z-index: 1;
   }
 `;
 

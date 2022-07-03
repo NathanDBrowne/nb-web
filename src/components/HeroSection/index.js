@@ -14,7 +14,7 @@ import {
 } from "./HeroElements";
 import Video from "../../videos/video.mp4";
 
-function HeroSection() {
+const HeroSection = () => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -29,6 +29,11 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>Hi.</HeroH1>
         <HeroP>I'm Nate. I'm a dev based in the UK.</HeroP>
+        <HeroP>
+          I'll use this site to showcase my work but I may also use it as a
+          quick-access for useful repositories/tools... sharing is caring after
+          all.
+        </HeroP>
         <HeroBtnWrapper>
           <Button
             to="projects"
@@ -46,6 +51,6 @@ function HeroSection() {
       </HeroContent>
     </HeroContainer>
   );
-}
+};
 
 export default HeroSection;

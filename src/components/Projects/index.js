@@ -14,11 +14,12 @@ import {
   Img,
 } from "./ProjectElements";
 
-import { Button } from "../ButtonElements";
+import { ExtButton } from "../ButtonElements";
 
 const InfoSection = ({
   lightBg,
   id,
+  href,
   imgStart,
   topLine,
   lightText,
@@ -43,11 +44,13 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="home"
+                  <ExtButton
+                    href={href}
                     smooth={true}
                     duration={500}
                     spy={true}
+                    target="_blank"
+                    rel="noreferrer noopener"
                     exact="true"
                     offset={-80}
                     primary={primary ? 1 : 0}
@@ -55,7 +58,7 @@ const InfoSection = ({
                     dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
-                  </Button>
+                  </ExtButton>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

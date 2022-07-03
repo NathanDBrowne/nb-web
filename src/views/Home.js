@@ -1,11 +1,16 @@
 import React from "react";
-import "../App.css";
 import HeroSection from "../components/HeroSection";
 import SideBar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
 import ProjectSection from "../components/Projects";
-import { ZenoBotObj, RustObj } from "../components/Projects/Data";
+import {
+  ZenoBotObj,
+  RustObj,
+  NBWebObj,
+  LinqObj,
+  QuantObj,
+} from "../components/Projects/Data";
 import Stack from "../components/Stack";
 import Footer from "../components/Footer";
 
@@ -22,6 +27,9 @@ function Home() {
       <HeroSection />
       <ProjectSection {...ZenoBotObj} />
       <ProjectSection {...RustObj} />
+      <ProjectSection {...NBWebObj} />
+      <ProjectSection {...LinqObj} />
+      <ProjectSection {...QuantObj} />
       <Stack />
       <Footer />
     </>
