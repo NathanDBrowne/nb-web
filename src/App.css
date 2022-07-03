@@ -16,7 +16,7 @@
 }
 
 .my-stack {
-  background-image: url("../public/images/my-stack.jpg");
+  background-image: url("./images/my-stack.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 }
 
 .projects {
-  background-image: url("../public/images/projects.jpg");
+  background-image: url("./images/projects.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
