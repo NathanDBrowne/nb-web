@@ -1,10 +1,10 @@
 import React from "react";
 
-import IconPython from "../../images/zenobot.svg";
-import IconMongo from "../../images/zenobot.svg";
-import IconReact from "../../images/zenobot.svg";
-import IconSQL from "../../images/zenobot.svg";
-import IconGitHub from "../../images/zenobot.svg";
+import IconPython from "../../images/python.svg";
+import IconMongo from "../../images/mongo.svg";
+import IconReact from "../../images/react.svg";
+import IconSQL from "../../images/sql.svg";
+import IconGitHub from "../../images/git.svg";
 
 import {
   StackContainer,

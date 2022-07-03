@@ -73,7 +73,7 @@ function Footer() {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>
-                {<p style={{ color: "#5555ff" }}>Social Media</p>}
+                {<p style={{ color: "#7e42ff" }}>Social Media</p>}
               </FooterLinkTitle>
               <FooterLink
                 href="https://www.linkedin.com/in/nathan-b-42549413a/"
