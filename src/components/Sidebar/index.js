@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   SidebarContainer,
   Icon,
@@ -18,18 +19,52 @@ const SideBar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
+          <SidebarLink
+            to="hero"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             About
           </SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>
+          <SidebarLink
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             Projects
           </SidebarLink>
-          <SidebarLink to="my-stack" onClick={toggle}>
+          <SidebarLink
+            to="stack"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
             My Stack
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/contact">Contact</SidebarRoute>
+          <SidebarRoute
+            to="footer"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
+            Contact
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

@@ -6,6 +6,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./views/Home";
 import "./App.css";
 
+import "@fontsource/fira-code";
+
 function App() {
   return (
     <Router>

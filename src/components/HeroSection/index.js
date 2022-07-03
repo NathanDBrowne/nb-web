@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button } from "../ButtonElements";
-import { animateScroll as scroll } from "react-scroll";
 import {
   HeroContainer,
   HeroBg,
@@ -22,7 +21,7 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id={"hero"}>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>

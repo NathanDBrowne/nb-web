@@ -24,7 +24,7 @@ function Footer() {
     scroll.scrollToTop();
   };
   return (
-    <FooterContainer>
+    <FooterContainer id={"footer"}>
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
