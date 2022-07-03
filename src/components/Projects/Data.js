@@ -13,7 +13,7 @@ export const ZenoBotObj = {
   topLine: "OOP ETL MongoDB-Atlas Requests",
   headline: "ZenoBot: a real-time transaction aggregator.",
   description:
-    "A great trouble with trading is finding the time to do so, or knowing when the best opportunities are. Zenobot event-driven aggregation so you don't even have to watch your screen.",
+    "A great trouble with trading is finding the time to do so, or knowing when the best opportunities are. Zenobot uses event-driven aggregation so you don't even have to watch your screen.",
   buttonLabel: "GitHub Repo",
   imgStart: false,
   img: analyticImg,
