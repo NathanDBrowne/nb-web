@@ -30,7 +30,7 @@ function Footer() {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>
-                {<p style={{ color: "#ff0055" }}>Reach Out</p>}
+                {<p style={{ color: "#38de21" }}>Reach Out</p>}
               </FooterLinkTitle>
               <FooterScrollLink to="/">+44(0)7312 267 345</FooterScrollLink>
               <FooterScrollLink to="/">
@@ -39,7 +39,7 @@ function Footer() {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>
-                {<p style={{ color: "#38de21" }}>About Me</p>}
+                {<p style={{ color: "#ff0055" }}>About Me</p>}
               </FooterLinkTitle>
               <FooterScrollLink
                 to="projects"

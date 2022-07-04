@@ -5,6 +5,10 @@ import IconMongo from "../../images/mongo.svg";
 import IconReact from "../../images/react.svg";
 import IconSQL from "../../images/sql.svg";
 import IconGitHub from "../../images/git.svg";
+import IconCloud from "../../images/cloud.svg";
+import IconLinux from "../../images/linux.svg";
+import IconVSCode from "../../images/vscode.svg";
+import IconDocker from "../../images/docker.svg";
 
 import {
   StackContainer,
@@ -38,7 +42,7 @@ const Stack = () => {
           </StackP>
         </StackCard>
         <StackCard>
-          <StackIcon src={IconReact} />
+          <StackIcon src={IconCloud} />
           <StackH2>Google Cloud</StackH2>
           <StackP>
             I'm currently working through the Google Cloud Skills badges.
@@ -46,7 +50,7 @@ const Stack = () => {
           </StackP>
         </StackCard>
         <StackCard>
-          <StackIcon src={IconGitHub} />
+          <StackIcon src={IconLinux} />
           <StackH2>Linux</StackH2>
           <StackP>
             I usually develop in WSL if I'm going to deploy to a linux VM - I've
@@ -63,7 +67,7 @@ const Stack = () => {
           </StackP>
         </StackCard>
         <StackCard>
-          <StackIcon src={IconSQL} />
+          <StackIcon src={IconDocker} />
           <StackH2>Docker</StackH2>
           <StackP>
             I've mostly used docker for easy learning environments but I have
@@ -71,7 +75,7 @@ const Stack = () => {
           </StackP>
         </StackCard>
         <StackCard>
-          <StackIcon src={IconSQL} />
+          <StackIcon src={IconVSCode} />
           <StackH2>VSCode</StackH2>
           <StackP>
             My favourite feature is Remote Explorer as I like to work and debug

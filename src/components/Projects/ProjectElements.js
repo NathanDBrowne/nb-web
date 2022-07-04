@@ -4,7 +4,7 @@ export const ProjectContainer = styled.div`
   color: #010606;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 810px) {
     padding: 100px 0;
   }
 `;
