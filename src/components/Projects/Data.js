@@ -13,7 +13,7 @@ export const ZenoBotObj = {
   topLine: "Python OOP ETL MongoDB-Atlas Requests Telegram-bot",
   headline: "ZenoBot: a real-time transaction aggregator.",
   description:
-    "Zenobot uses event-driven aggregation for real-time sampling of financial data. Trading strategies based on time are arbitrary and do not often translate well to economic processes, so ZenoBot watches dollars, volume and trade frequency ...and I can control it from anywhere through Telegram!",
+    "ZenoBot uses event-driven aggregation for real-time sampling of financial data. Trading strategies based on time are arbitrary and do not often translate well to economic processes, so ZenoBot watches dollars, volume and trade frequency ...and I can control it from anywhere through Telegram!",
   buttonLabel: "GitHub Repo",
   imgStart: false,
   img: analyticImg,
