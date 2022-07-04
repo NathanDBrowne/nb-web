@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const StackContainer = styled.div`
-  height: 900px;
+  height: 1300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #010606;
 
   @media screen and (max-width: 1000px) {
-    height: 1300px;
+    height: 2000px;
   }
   @media screen and (max-width: 760px) {
-    height: 1800px;
+    height: 3400px;
   }
 `;
 

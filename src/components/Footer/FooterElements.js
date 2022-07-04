@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const FooterContainer = styled.footer`
-  background: linear-gradient(90deg, rgb(36, 36, 36) 0%, rgb(42, 42, 42) 100%);
+  background: #010606;
 `;
 
 export const FooterWrap = styled.div`

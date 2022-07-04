@@ -43,8 +43,8 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              {<p style={{ color: "#38de21" }}>nate@browne</p>}
-              {<p style={{ color: "#ff0055" }}>(prod)</p>}
+              {<p style={{ color: "#38de21" }}>n@te</p>}
+              {<p style={{ color: "#ff0055" }}>(browne)</p>}
               {<p style={{ color: "#7e42ff" }}>~/web</p>}$
             </NavLogo>
             <MobileIcon onClick={toggle}>

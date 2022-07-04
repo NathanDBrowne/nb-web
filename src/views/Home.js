@@ -26,10 +26,10 @@ function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <ProjectSection {...ZenoBotObj} />
-      <ProjectSection {...RustObj} />
-      <ProjectSection {...NBWebObj} />
       <ProjectSection {...LinqObj} />
       <ProjectSection {...QuantObj} />
+      <ProjectSection {...RustObj} />
+      <ProjectSection {...NBWebObj} />
       <Stack />
       <Footer />
     </>
