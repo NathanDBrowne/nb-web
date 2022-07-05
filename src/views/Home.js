@@ -10,6 +10,7 @@ import {
   NBWebObj,
   LinqObj,
   QuantObj,
+  BoozeBotObj,
 } from "../components/Projects/Data";
 import Stack from "../components/Stack";
 import Footer from "../components/Footer";
@@ -30,6 +31,7 @@ function Home() {
       <ProjectSection {...QuantObj} />
       <ProjectSection {...RustObj} />
       <ProjectSection {...NBWebObj} />
+      <ProjectSection {...BoozeBotObj} />
       <Stack />
       <Footer />
     </>

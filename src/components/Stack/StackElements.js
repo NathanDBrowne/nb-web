@@ -18,7 +18,7 @@ export const StackContainer = styled.div`
 export const StackWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  // margin-bottom:64px;
+  margin-bottom:64px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -40,7 +40,7 @@ export const StackCard = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 3px;
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);

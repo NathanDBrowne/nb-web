@@ -5,7 +5,7 @@ export const ProjectContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
   @media screen and (max-width: 810px) {
-    padding: 100px 0;
+    padding: 210px 0;
   }
 `;
 
@@ -83,7 +83,12 @@ export const BtnWrap = styled.div`
 
 export const ImgWrap = styled.div`
   max-width: 555px;
-  height: 100px;
+  height: 400px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 400px;
+    height: 500px;
+  }
 `;
 
 export const Img = styled.img`

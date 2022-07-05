@@ -3,6 +3,7 @@ import calendarImg from "../../images/calendar.svg";
 import analyticImg from "../../images/analytic.svg";
 import ethImg from "../../images/eth.svg";
 import reactImg from "../../images/react.svg";
+import cloudImg from "../../images/cloud.svg";
 
 export const ZenoBotObj = {
   id: "projects",
@@ -97,4 +98,23 @@ export const QuantObj = {
   dark: true,
   primary: true,
   darkText: false,
+};
+
+export const BoozeBotObj = {
+  id: "booze",
+  href: "https://github.com/NathanDBrowne/booze_bot",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Serverless-Cloud-Function Python Requests Telegram",
+  headline: "Telegram cocktail recipe bot",
+  description:
+    "I'm not a massive cocktail drinker but this was a great exercise to get to grips with Telegram bots and Cloud Functions. You can try it out at https://t.me/b00ze_bot",
+  buttonLabel: "GitHub Repo",
+  imgStart: true,
+  img: cloudImg,
+  alt: "BoozeBot",
+  dark: false,
+  primary: false,
+  darkText: true,
 };

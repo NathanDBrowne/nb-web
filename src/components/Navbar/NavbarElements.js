@@ -29,6 +29,8 @@ export const NavbarContainer = styled.div`
 export const NavLogo = styled(LinkR)`
   color: #eee;
   display: flex;
+  text-shadow: -1px -1px 6px #000, 1px -1px 6px #000, -1px 1px 6px #000,
+    1px 1px 6px #000;
   font-size: 1.5rem;
   justify-self: flex;
   cursor: pointer;
@@ -89,6 +91,7 @@ export const NavBtnLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  box-shadow: 0 0 10px #000;
 
   &:hover {
     transition: all 0.2s ease-in-out;
