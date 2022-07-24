@@ -91,7 +91,7 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavRoute
                   to="/codec"
-                  onClick={scroll.scrollToTop()}
+                  onClick={toggleHome}
                   style={{ "font-size": "1.3rem" }}
                 >
                   CODEC

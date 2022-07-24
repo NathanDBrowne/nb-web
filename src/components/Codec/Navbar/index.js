@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/codec" onClick={toggleHome}>
-              CODEC
+              N8S CODEC
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
