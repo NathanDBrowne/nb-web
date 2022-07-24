@@ -1,9 +1,9 @@
-import zenoImg from "../../images/zenobot.svg";
-import calendarImg from "../../images/calendar.svg";
-import analyticImg from "../../images/analytic.svg";
-import ethImg from "../../images/eth.svg";
-import reactImg from "../../images/react.svg";
-import cloudImg from "../../images/cloud.svg";
+import zenoImg from "../../../images/zenobot.svg";
+import calendarImg from "../../../images/calendar.svg";
+import analyticImg from "../../../images/analytic.svg";
+import ethImg from "../../../images/eth.svg";
+import reactImg from "../../../images/react.svg";
+import cloudImg from "../../../images/cloud.svg";
 
 export const ZenoBotObj = {
   id: "projects",

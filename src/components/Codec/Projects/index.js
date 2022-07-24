@@ -14,7 +14,7 @@ import {
   Img,
 } from "./ProjectElements";
 
-import { ExtButton } from "../ButtonElements";
+import { ExtButton } from "../../ButtonElements";
 
 const InfoSection = ({
   lightBg,

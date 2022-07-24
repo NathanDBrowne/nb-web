@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
   padding: 0 24px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
   color: #eee;
   display: flex;
   text-shadow: -1px -1px 6px #000, 1px -1px 6px #000, -1px 1px 6px #000,
@@ -70,6 +70,24 @@ export const NavLinks = styled(LinkS)`
   }
 `;
 
+export const NavRoute = styled(LinkR)`
+  color: #eee;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-family: Electrolize;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    text-shadow: -1px -1px 6px #dc0000, 1px -1px 6px #dc0000,
+      -1px 1px 6px #dc0000, 1px 1px 6px #dc0000;
+    border-radius: 50px;
+  }
+`;
+
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
@@ -79,7 +97,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkS)`
   border-radius: 50px;
   background: #7e42ff;
   white-space: nowrap;

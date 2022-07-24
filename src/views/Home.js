@@ -1,9 +1,9 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import SideBar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
+import HeroSection from "../components/Main/HeroSection";
+import SideBar from "../components/Main/Sidebar";
+import Navbar from "../components/Main/Navbar";
 import { useState } from "react";
-import ProjectSection from "../components/Projects";
+import ProjectSection from "../components/Main/Projects";
 import {
   ZenoBotObj,
   RustObj,
@@ -11,9 +11,11 @@ import {
   LinqObj,
   QuantObj,
   BoozeBotObj,
-} from "../components/Projects/Data";
-import Stack from "../components/Stack";
-import Footer from "../components/Footer";
+} from "../components/Main/Projects/Data";
+import Stack from "../components/Main/Stack";
+import Footer from "../components/Main/Footer";
+
+import "@fontsource/fira-code";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +24,7 @@ function Home() {
   };
 
   return (
-    <>
+    <div style={{ "font-family": "Fira Code" }}>
       <SideBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
@@ -34,7 +36,7 @@ function Home() {
       <ProjectSection {...BoozeBotObj} />
       <Stack />
       <Footer />
-    </>
+    </div>
   );
 }
 

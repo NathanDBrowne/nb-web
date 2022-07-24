@@ -1,14 +1,14 @@
 import React from "react";
 
-import IconPython from "../../images/python.svg";
-import IconMongo from "../../images/mongo.svg";
-import IconReact from "../../images/react.svg";
-import IconSQL from "../../images/sql.svg";
-import IconGitHub from "../../images/git.svg";
-import IconCloud from "../../images/cloud.svg";
-import IconLinux from "../../images/linux.svg";
-import IconVSCode from "../../images/vscode.svg";
-import IconDocker from "../../images/docker.svg";
+import IconPython from "../../../images/python.svg";
+import IconMongo from "../../../images/mongo.svg";
+import IconReact from "../../../images/react.svg";
+import IconSQL from "../../../images/sql.svg";
+import IconGitHub from "../../../images/git.svg";
+import IconCloud from "../../../images/cloud.svg";
+import IconLinux from "../../../images/linux.svg";
+import IconVSCode from "../../../images/vscode.svg";
+import IconDocker from "../../../images/docker.svg";
 
 import {
   StackContainer,

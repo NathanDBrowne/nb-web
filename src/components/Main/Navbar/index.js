@@ -12,6 +12,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  NavRoute,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
@@ -87,9 +88,19 @@ const Navbar = ({ toggle }) => {
                   My Stack
                 </NavLinks>
               </NavItem>
+              <NavItem>
+                <NavRoute
+                  to="/codec"
+                  onClick={scroll.scrollToTop()}
+                  style={{ "font-size": "1.3rem" }}
+                >
+                  CODEC
+                </NavRoute>
+              </NavItem>
             </NavMenu>
-            <NavBtn onClick={toggleContact}>
+            <NavBtn>
               <NavBtnLink
+                onClick={toggleContact}
                 to="/"
                 smooth={true}
                 duration={500}
