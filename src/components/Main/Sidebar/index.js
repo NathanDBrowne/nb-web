@@ -8,6 +8,7 @@ import {
   SideBtnWrap,
   SidebarMenu,
   SidebarLink,
+  SidebarLinkR,
   SidebarRoute,
 } from "./SidebarElements";
 
@@ -52,6 +53,17 @@ const SideBar = ({ isOpen, toggle }) => {
           >
             My Stack
           </SidebarLink>
+          <SidebarLinkR
+            to="/codec"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={toggle}
+          >
+            CODEC
+          </SidebarLinkR>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute
