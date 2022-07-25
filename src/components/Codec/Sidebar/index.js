@@ -9,6 +9,7 @@ import {
   SidebarMenu,
   SidebarLink,
   SidebarRoute,
+  SidebarBtnLink,
 } from "./SidebarElements";
 
 const SideBar = ({ isOpen, toggle }) => {
@@ -28,10 +29,10 @@ const SideBar = ({ isOpen, toggle }) => {
             offset={-80}
             onClick={toggle}
           >
-            About
+            Tools
           </SidebarLink>
-          <SidebarLink
-            to="projects"
+          <SidebarRoute
+            to="/"
             smooth={true}
             duration={500}
             spy={true}
@@ -39,22 +40,11 @@ const SideBar = ({ isOpen, toggle }) => {
             offset={-80}
             onClick={toggle}
           >
-            Projects
-          </SidebarLink>
-          <SidebarLink
-            to="stack"
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-            onClick={toggle}
-          >
-            My Stack
-          </SidebarLink>
+            Nate
+          </SidebarRoute>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute
+          <SidebarBtnLink
             to="footer"
             smooth={true}
             duration={500}
@@ -63,8 +53,8 @@ const SideBar = ({ isOpen, toggle }) => {
             offset={-80}
             onClick={toggle}
           >
-            Contact
-          </SidebarRoute>
+            Quick Links
+          </SidebarBtnLink>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

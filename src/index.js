@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useLocation,
+  // useLocation,
 } from "react-router-dom";
 
 import Home from "./views/Home";

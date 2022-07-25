@@ -149,7 +149,7 @@ function Footer() {
             exact="true"
             offset={-80}
           >
-            Home
+            Nate Browne
           </SocialLogo>
           <WebsiteRights>Site built with React.js</WebsiteRights>
           <SocialIcons>
