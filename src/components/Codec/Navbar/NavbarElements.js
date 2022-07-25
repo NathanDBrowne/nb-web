@@ -67,7 +67,25 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #7e42ff;
+    border-bottom: 3px solid #dc0000;
+  }
+`;
+
+export const NavRoute = styled(LinkR)`
+  color: #eee;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-family: "Fira Code";
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    text-shadow: -1px -1px 6px #7e42ff, 1px -1px 6px #7e42ff,
+      -1px 1px 6px #7e42ff, 1px 1px 6px #7e42ff;
+    border-radius: 50px;
   }
 `;
 
@@ -80,24 +98,26 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkS)`
   border-radius: 50px;
-  background: #7e42ff;
+  background: #010606;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #dc0000;
   font-size: 16px;
   outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  box-shadow: 0 0 10px #000;
+  box-shadow: -1px -1px 6px #dc0000, 1px -1px 6px #dc0000, -1px 1px 6px #dc0000,
+    1px 1px 6px #dc0000;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #38de21;
-    color: #010606;
+    background: #dc0000;
+    color: #000;
+    box-shadow: none;
   }
 `;
 

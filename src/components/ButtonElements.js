@@ -22,6 +22,28 @@ export const Button = styled(Link)`
   }
 `;
 
+export const ButtonRed = styled(Link)`
+  border-radius: 50px;
+  background: ${({ primary }) => (primary ? "#7e42ff" : "#010606")};
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
+  color: ${({ dark }) => (dark ? "#010606" : "#fff")};
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    text-shadow: -1px -1px 6px #dc0000, 1px -1px 6px #dc0000,
+      -1px 1px 6px #dc0000, 1px 1px 6px #dc0000;
+  }
+`;
+
 export const ExtButton = styled.a`
   border-radius: 50px;
   background: ${({ primary }) => (primary ? "#7e42ff" : "#010606")};

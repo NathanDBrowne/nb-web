@@ -10,6 +10,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavRoute,
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
@@ -34,7 +35,7 @@ const Navbar = ({ toggle }) => {
   };
 
   const toggleContact = () => {
-    scroll.scrollToTop();
+    scroll.scrollToBottom();
   };
 
   return (
@@ -62,28 +63,26 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to="projects"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+                <NavRoute
+                  to="/"
+                  onClick={toggleHome}
+                  style={{ "font-size": "1.3rem" }}
                 >
-                  Home
-                </NavLinks>
+                  Nate
+                </NavRoute>
               </NavItem>
             </NavMenu>
-            <NavBtn onClick={toggleContact}>
+            <NavBtn>
               <NavBtnLink
-                to="/"
+                onClick={toggleContact}
+                to="?"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Back
+                Quick Links
               </NavBtnLink>
             </NavBtn>
           </NavbarContainer>

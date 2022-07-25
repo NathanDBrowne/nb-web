@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "../../ButtonElements";
+import { ButtonRed } from "../../ButtonElements";
 import {
   HeroContainer,
   HeroBg,
@@ -27,10 +27,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Welcome.</HeroH1>
-        <HeroP>There's a tonne of tools here.</HeroP>
-        <HeroP>Might as well share.</HeroP>
+        <HeroP>I'm gonna put a tonne of tools here.</HeroP>
+        <HeroP>Like an everything control panel.</HeroP>
         <HeroBtnWrapper>
-          <Button
+          <ButtonRed
             to="projects"
             smooth={true}
             duration={500}
@@ -41,7 +41,7 @@ const HeroSection = () => {
             onMouseLeave={onHover}
           >
             Acquire Knowledge {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </ButtonRed>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

@@ -103,6 +103,13 @@ function Footer() {
               >
                 SQL
               </FooterLink>
+              <FooterLink
+                href="https://doc.rust-lang.org/book/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Rust
+              </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle
@@ -111,21 +118,21 @@ function Footer() {
                     "-1px -1px 6px #00E6FF, 1px -1px 6px #00E6FF, -1px 1px 6px #00E6FF, 1px 1px 6px #00E6FF",
                 }}
               >
-                Analytics
+                Misc.
               </FooterLinkTitle>
               <FooterLink
-                href="https://www.linkedin.com/in/nathan-b-42549413a/"
+                href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Python
+                Kubernetes
               </FooterLink>
               <FooterLink
-                href="https://t.me/FreeweightNate"
+                href="https://dockerlabs.collabnix.com/docker/cheatsheet/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                SQL
+                Docker
               </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>

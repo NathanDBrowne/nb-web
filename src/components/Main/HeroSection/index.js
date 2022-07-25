@@ -26,12 +26,11 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Hi.</HeroH1>
-        <HeroP>I'm Nate. I'm a dev based in the UK.</HeroP>
+        <HeroH1>I'm Nate.</HeroH1>
+        <HeroP>I'm a dev based in the UK.</HeroP>
         <HeroP>
-          I'll use this site to showcase my work but I may also use it as a
-          quick-access for useful repositories/tools... sharing is caring after
-          all.
+          This site is built to showcase my work but also acts as a nice repo
+          for useful tools (in the codec).
         </HeroP>
         <HeroBtnWrapper>
           <Button
