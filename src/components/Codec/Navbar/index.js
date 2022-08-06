@@ -44,7 +44,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/codec" onClick={toggleHome}>
-              N8S CODEC
+              CODEC
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -52,14 +52,14 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="hero"
+                  to="cheatsheets"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Tools
+                  CheatSheets
                 </NavLinks>
               </NavItem>
               <NavItem>

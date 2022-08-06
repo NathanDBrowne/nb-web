@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "../components/Codec/HeroSection";
+import CheatSheet from "../components/Codec/Cheatsheets";
 import SideBar from "../components/Codec/Sidebar";
 import Navbar from "../components/Codec/Navbar";
 import { useState } from "react";
@@ -25,6 +26,7 @@ function Home() {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <CheatSheet />
       <Footer />
     </div>
   );

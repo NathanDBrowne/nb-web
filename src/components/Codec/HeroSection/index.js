@@ -31,7 +31,7 @@ const HeroSection = () => {
         <HeroP>Like an everything control panel.</HeroP>
         <HeroBtnWrapper>
           <ButtonRed
-            to="projects"
+            to="cheatsheets"
             smooth={true}
             duration={500}
             spy={true}

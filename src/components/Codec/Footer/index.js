@@ -51,7 +51,7 @@ function Footer() {
                 Cloud
               </FooterLinkTitle>
               <FooterScrollLink
-                to="projects"
+                to="?"
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -61,7 +61,7 @@ function Footer() {
                 GCP
               </FooterScrollLink>
               <FooterScrollLink
-                to="stack"
+                to="?"
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -70,13 +70,9 @@ function Footer() {
               >
                 AWS
               </FooterScrollLink>
-              <FooterLink
-                href="https://github.com/NathanDBrowne"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              {/* <FooterLink href="?" target="_blank" rel="noopener noreferrer">
                 Azure
-              </FooterLink>
+              </FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -90,14 +86,14 @@ function Footer() {
                 Scripting
               </FooterLinkTitle>
               <FooterLink
-                href="https://www.linkedin.com/in/nathan-b-42549413a/"
+                href="https://www.pythoncheatsheet.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Python
               </FooterLink>
               <FooterLink
-                href="https://t.me/FreeweightNate"
+                href="https://www.programmingwithmosh.com/wp-content/uploads/2019/03/SQL-Cheat-Sheet.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
